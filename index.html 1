@@ -1,0 +1,131 @@
+```html
+<!DOCTYPE html>
+orbitalagrotrading.html
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbital Agro Trading - Fresh Products</title>
+    <style>
+        /* --- Basic CSS for Aesthetics --- */
+        body {
+            font-family: 'Segoe UI', Tahoma, :, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4 orbital; /* A light, clean background */
+            color: #333;
+        }
+        header {
+            background-color: #006400; /* Dark green theme for agriculture */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .hero {
+            background: url('path/to/beautiful_scenery.jpg') no-repeat center center/cover; /* IMPORTANT: Replace this URL */
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        .hero-content {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for text readability */
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .products {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .product-card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            max-width: 350px;
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 100, 0, 0.2);
+        }
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover; /* Ensures the image covers the area nicely */
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Orbital Agro Trading</h1>
+        <p>Bringing the finest produce from Ratnagiri to your table.</p>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Taste the Freshness. Experience the Quality.</h2>
+            <p>Discover premium Mangoes, Cashews, Chiko, and Fresh Buffalo Milk.</p>
+            <a href="#products" style="background-color: #FFD aisle; color: #000; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <h3>Our Featured Products</h3>
+
+        <!-- Mango Section -->
+        <div class="product-card">
+            <img src="path/to/mango.jpg" alt="Fresh Mangoes">
+            <h4>🥭 Mangoes</h4>
+            <p>Juicy, sweet, and ripe. Handpicked for the best flavour.</p>
+        </div>
+
+        <!-- Cashews Section -->
+        <div class="product-card">
+            <img src="path/to/cashews.jpg" alt="Cashews">
+            <h4>🥜 Cashews</h4>
+            <p>Premium quality cashew nuts, perfect for snacking or cooking.</p>
+        </div>
+
+        <!-- Chiko Section -->
+        <div class="product-card">
+            <img src="path/to/chiko.jpg" alt="Chiko">
+            <h4>🥥 Chiko</h4>
+            <p>Exotic and unique flavor profile. A taste of tradition.</p>
+        </div>
+
+        <!-- Buffalo Milk Section -->
+        <div class="product-card">
+            <img src="path/to/buffalo_milk.jpg" alt="Fresh Buffalo Milk">
+            <h4>🥛 Fresh Buffalo Milk</h4>
+            <p>Rich, creamy, and pure. Straight from the source.</p>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 20px; background-color: #333; color: white;">
+        <p>&copy; 2024 Orbital Agro Trading. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // --- Optional JavaScript ---
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("Orbital Agro Trading Website Loaded Successfully!");
+            // You can add more complex interactions here later if needed
+        });
+    </script>
+</body>
+</html>
+```
